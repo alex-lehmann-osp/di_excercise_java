@@ -1,0 +1,7 @@
+tasks:
+  - before: sdk default java 17.0.5.fx-zulu
+  - init: open src/main/java/di/excercise/Main.java
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
